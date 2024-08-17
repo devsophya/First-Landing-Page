@@ -18,6 +18,6 @@ A responsividade foi garantida para adaptar o layout a diferentes dispositivos, 
 <div align="center">
   <h2>Projeto by Sophya: </h2>
   <img src="https://github.com/devsophya/First-Landing-Page/blob/main/Fotos%20Projeto/Inicio.png" width="1000px" height="600px">
-  <img src="https://github.com/devsophya/First-Landing-Page/blob/main/Fotos%20Projeto/Card%C3%A1pio.png" width="1000px" height="800px">
+  <img src="https://github.com/devsophya/First-Landing-Page/blob/main/Fotos%20Projeto/Card%C3%A1pio.png" width="1000px" height="600px">
   <img src="https://github.com/devsophya/First-Landing-Page/blob/main/Fotos%20Projeto/Avalia%C3%A7%C3%B5es.png" width="1000px" height="600px">
 </div>
