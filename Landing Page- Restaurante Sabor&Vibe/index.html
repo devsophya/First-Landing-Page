@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="icon" href="src/images/favicon.png" type="image/png">
+    <title>Sabor&Vibe</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+
+            <i class="fa-solid fa-burger" id="nav_logo"> Sabor&Vibe</i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+            <button class="btn-default">
+                Peça aqui
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </nav>
+
+        <div id="mobile_menu">
+
+            <ul id="mobile_nav_list">
+                <li class="nav_item">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Peça aqui
+            </button>
+
+        </div>
+
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    O sabor que vai até
+                    <span>você!</span>
+                </h1>
+                <p class="description">
+                    Sabor excepcional em cada prato. Experimente nossa paixão pela comida💚
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        Ver cardápio
+                    </a>
+
+                    <a href="tel:+551940028922" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        <span>(19) 4002-8922</span>
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a target="_blank" href="https://www.linkedin.com/in/sophya-damiazo-695991268/">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <div id="banner">
+                <img src="src/images/pizza.png" alt="">
+            </div>
+
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Cardápio</h2>
+            <h3 class="section-subtitle">Nossos pratos especiais</h3>
+
+
+            <div id="dishes">
+                <div class="dish">
+
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/prato1.png"  class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Picanha Especial
+                    </h3>
+
+                    <span class="dish-description">
+                    Picanha grelhada com alho, acompanhada de arroz, fritas, farofa crocante e vinagrete colorido.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$38,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+            
+                <div class="dish">
+
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/prato2.png"  class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Croc Salada Grill
+                    </h3>
+
+                    <span class="dish-description">
+                        Salada vibrante com frango grelhado, croutons dourados e lascas generosas de queijo.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(460+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$30,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+
+
+                <div class="dish">
+
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/prato3.png"  class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Grelhado Citrus
+                    </h3>
+
+                    <span class="dish-description">
+                        Peito de frango marinado em limão e ervas, grelhado e servido com salada e vinagrete mostarda-mel.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(550+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$26,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+
+
+                <div class="dish">
+
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/pizza2.png"  class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Massa do Paraíso
+                    </h3>
+
+                    <span class="dish-description">
+                        Massa leve e crocante, coberta com molho de tomate saboroso, mussarela derretida e orégano fresco. 
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(700+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$60,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <img src="src/images/chef.png" id="testimonial_chef" alt="">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Depoimentos
+                </h2>
+                <h3 class="section-subtitle">
+                    O que os clientes falam sobre nós!
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/images/mulher1.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Olivia Thompson
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Local agradável, comida apetitosa e atendimento excelente faz tornar cada visita inesquecível."
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="feedback">
+                        <img src="src/images/mulher2.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Elena Duarte
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "A atmosfera é acolhedora e os pratos são deliciosos.
+                            </p>
+                            <p>O atendimento é excelente, tornando a refeição uma experiência especial."</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn-default">
+                    Ver mais avaliações
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="src/images/wave (6).svg" alt="">
+
+        <div id="footer_itens">
+            <span id="copyrigth">
+                &copy 2024 Sophya Damiazo
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a target="_blank" href="https://www.linkedin.com/in/sophya-damiazo-695991268/">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="javascript/script.js"></script>
+
+</body>
+</html>
