@@ -15,6 +15,8 @@ Utilizando HTML5, CSS3, e JavaScript com jQuery e ScrollReveal, o site oferece u
 A responsividade foi garantida para adaptar o layout a diferentes dispositivos, proporcionando uma experiência de usuário fluida e moderna.
 </p>
 
+<p>Acesse em: https://66c0fffa1f6ae6c1b498d6ff--harmonious-kheer-fb6786.netlify.app/</p>
+
 <div align="center">
   <h2>Projeto by Sophya: </h2>
   <img src="https://github.com/devsophya/First-Landing-Page/blob/main/Fotos%20Projeto/Inicio.png" width="1000px" height="600px">
